@@ -1,0 +1,51 @@
+//ACT 1
+
+import java.util.Scanner;
+
+public class UserProfile {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name? ");
+        
+        String name = scanner.nextLine();
+        System.out.print("Enter your age? ");
+            
+        int age = scanner.nextInt();
+        scanner.nextLine();
+            
+        System.out.print("Enter your address? ");
+        String address = scanner.nextLine();
+
+        System.out.print("Enter your weight? ");
+        double weight = scanner.nextDouble();
+
+        System.out.print("Enter your height? ");
+        double height = scanner.nextDouble();
+
+        System.out.println("My name is " + name + ", I am " + age + " years old. I live at " + address + ", my weight is " + weight + " kg, and my height is " + height + ".");
+
+        scanner.close();
+     }
+}
+
+-----------------------------------------------------------------------------
+//ACT 2
+
+-----------------------------------------------------------------------------
+//ACT 3
+
+
+
+-----------------------------------------------------------------------------
+//ACT 4
+
+class Main {
+    public static void main(String[] args) {
+        int countdown = 100;
+
+        while (countdown > 0){
+    System.out.println(countdown);
+    countdown--;
+        }
+    }
+}
